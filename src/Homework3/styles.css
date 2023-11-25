@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    color:hsl(from color h s l); 
+}
+
+a {
+    color:rgb(from color r g b); 
+}
+
+/* Navigation Styles */
+nav {
+    background:lch(from color l c h);
+    /* Other navigation styles */
+}
+
+/* Header Styles */
+header {
+    background-color:hwb(from color h w b); 
+    color:rgb(from color r g b); 
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+}
+
+h1, h2 {
+    margin: 0.5em 0;
+}
+
+section {
+    padding: 20px;
+}
+
+#countdown {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+/* Smooth Transitions */
+button, a, input[type="submit"] {
+    transition: background-color 0.3s ease;
+}
+
+button:hover, a:hover, input[type="submit"]:hover {
+    background-color:hsl(from color h s l);
+}
+
+/* Keyframes for Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Apply Animation */
+section {
+    animation: fadeIn 1s ease-out;
+}
